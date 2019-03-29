@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <script src="~/lib/FodaoJS.js"></script>
     <script src="~/js/Login/Login.js"></script>
+    <script src="~/js/Login/Teclado.js"></script>
 </head>
 
 <body>
@@ -25,14 +26,14 @@
         </li>
         <li> </li>
         <li>
-            <input type="button" value="A" id="btnA" />
-            <input type="button" value="B" id="btnB" />
-            <input type="button" value="C" id="btnC" />
+            <input type="button" value="A" id="btnA" onclick="tecla.capturar('btnA')" />
+            <input type="button" value="B" id="btnB" onclick="tecla.capturar('btnB')"  />
+            <input type="button" value="C" id="btnC" onclick="tecla.capturar('btnC')" />
         </li>
         <li>
-            <input type="button" value="1" id="btn1" />
-            <input type="button" value="2" id="btn2" />
-            <input type="button" value="3" id="btn3" />
+            <input type="button" value="1" id="btn1" onclick="tecla.capturar('btn1')" />
+            <input type="button" value="2" id="btn2" onclick="tecla.capturar('btn2')" />
+            <input type="button" value="3" id="btn3" onclick="tecla.capturar('btn3')" />
         </li>
         <li> </li>
         <li>
