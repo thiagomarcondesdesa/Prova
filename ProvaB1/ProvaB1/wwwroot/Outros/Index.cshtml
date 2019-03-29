@@ -1,0 +1,50 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts{
+    <script src="~/js/GerenciadorFuncionario/Index.js"></script>
+
+}
+
+<h2>Gerenciador de Funcionário</h2>
+
+<ul class="formularioContainer">
+    <li>
+        <label class="label">
+            Data/Hora do Cadastro
+        </label>
+        <div>
+            @ViewBag.DataFormatada
+        </div>
+    </li>
+    <li id="liTeste">
+
+    </li>
+    <li>
+        <label class="label">
+            Nome
+        </label>
+        <input type="text" value="" id="txtNome" />
+    </li>
+    <li>
+        <label class="label">
+            CPF
+        </label>
+        <input type="text" value="" id="txtCPF" />
+    </li>
+    <li>
+        <label class="label">
+            Senha
+        </label>
+        <input type="password" value="" id="txtSenha" />
+    </li>
+    <li>
+        <div id="divMsg"></div>
+        <input type="button" value="Gravar" onclick="index.gravar()" />
+    </li>
+</ul>
+
+
+

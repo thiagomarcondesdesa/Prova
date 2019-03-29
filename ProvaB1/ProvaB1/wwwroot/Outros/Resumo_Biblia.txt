@@ -1,0 +1,48 @@
+Razor é o nome dado ao novo View Engine do ASP.NET, 
+que foi introduzido na terceira versão do ASP.NET MVC. 
+O Razor nada mais é do que a linguagem C#, ou VB.NET, 
+trabalhando em conjunto com código HTML, 
+para a construção das suas páginas ASP.NET.
+
+A sintaxe Razor é limpa e concisa, o que requer um número mínimo de digitação;
+• O Razor é fácil de aprender, em parte porque ele é baseado em linguagens existentes, como C # e Visual Basic;
+• O Visual Studio inclui o IntelliSense e colorização de código para a sintaxe Razor;
+• As views Razor podem ser testadas de forma unitária sem exigir que você execute o aplicativo ou abra um servidor web;
+ sintaxe do modelo de @ para especificar o tipo que está sendo passado para a exibição;
+• @ * * @ sintaxe de comentário;
+• A capacidade de especificar os padrões (como layoutpage) uma vez para um site inteiro;
+• O método Html.Raw para exibição de texto sem codificação HTML;
+• Apoio ao compartilhamento de código entre múltiplas visualizações (arquivos _viewstart.cshtml ou _viewstart.vbhtml);
+
+
+O ASP.NET MVC é um framework desenvolvido pela Microsoft para implantar-se o modelo MVC em aplicações ASP.NET. MVC (Sigla em inglês para Model View Controller) é um pattern de arquitetura para construção de web sites, sendo que o mesmo estabelece a separação de uma aplicação em 3 partes principais: model View e controller. Já o ASP.NET MVC, por sua vez é a implementação da Microsoft para este padrão, permitindo ainda recursos oriundos do ASP.NET como autenticação via membership e máster pages sejam facilmente integrados a uma solução MVC.
+ASP.NET não é uma linguagem de programação: é uma plataforma de desenvolvimento criada pela Microsoft, que pode utilizar diferentes linguagens (como VB.NET, C#, F# e outras) e se integra com o ambiente .NET.
+Uma das principais características desse padrão é a separação de responsabilidade, contribuindo, assim, para que o código usado num domínio seja isolado do utilizado na construção de interfaces gráficas.
+O ASP.NET 4.x é uma estrutura consolidada que fornece os serviços necessários para criar aplicativos Web baseados em servidor, de nível empresarial, no Windows.
+O ASP.NET Core é uma estrutura de software livre, multiplataforma, para a criação de aplicativos Web modernos e baseados em nuvem, no Windows, no macOS ou no Linux.
+É uma variação do conhecido .NET Framework (e agora já começa o sobrepor em uso). Ele começou baseado na nova versão 4.6 do framework "completo". Ambos são desenvolvidos em conjunto pela Microsoft, mas o Core conta com ajuda da comunidade. Não há grandes diferenças entre eles na parte mais básica. Apesar deles usaram a mesma base de código serão duas linhas de desenvolvimento independentes. O .NET Core não é necessário para o .NET Framework funcionar já que ele possui tudo o que precisa. E claro que o contrário também é verdadeiro.
+O .NET Core pode ser usado para aplicações cliente UWP, WPF ou WinForms, mas o código dessas tecnologias não está aberto.
+Há as bibliotecas disponibilizadas pelo Xamarin para iOS, MacOS e Android, que têm seus códigos abertos. E claro que GTK# continua aberto. Desta forma o .NET é a plataforma fácil de usar (C++ é mais difícil especialmente em algumas plataformas) mais ubíqua existente para client side e server side.
+
+
+
+
+
+Ajax é uma técnica ou uma biblioteca criada na linguagem JavaScript para carregar conteúdos XML, HTML, TXT, PHP, ASP, JSON, JAVA ou qualquer linguagem de marcação ou programação que possa ser recuperada de um servidor. O Ajax não é somente um novo modelo, é também uma iniciativa na construção de aplicações web mais dinâmicas e criativas, na verdade são várias tecnologias trabalhando junta, cada uma fazendo sua parte, oferecendo novas funcionalidades. Como por exemplo:
+Apresentação baseada em padrões, usando XHTML e CSS;
+Exposição e interação dinâmica usando o DOM;
+Manipulação de dados usando XML e XSLT;
+Recuperação assíncrona de dados usando o objeto XMLHttpRequest e JavaScript.
+JSON (JavaScript Object Notation) é uma representação baseada em texto, organizados em pares de valores-chave e listas ordenadas. Embora ele seja derivado do JavaScript, ele é suportado de forma nativa ou através de bibliotecas na maior parte das principais linguagens de programação.
+Quando você cria uma aplicação que irá se comunicar com outra aplicação, quer seja ela local ou remota você esta trocando informações e neste caso um formato de dados e um protocolo de troca devem ser selecionados para que a comunicação seja feita com sucesso. Existem uma variedade de opções de protocolos abertos padronizados, tais como SOAP, XML, etc., que podem ser adotados e isso vai depender da finalidade e dos requisitos da sua aplicação.
+Dessa forma, JSON é um protocolo leve para intercâmbio de dados e está baseado em um subconjunto da linguagem de programação JavaScript, sendo independente desta e de qualquer linguagem.
+Principais vantagens do JSON: É texto simples “auto descritivo”, legível de fácil entendimento; É hierárquico; pode ser analisado pelo JavaScript e os dados transportados usando AJAX.
+Desvantagens: Ele não possui schema, ou seja, você tem total flexibilidade para representar os dados da maneira como quiser, correndo o risco de criar dados deformados; Permite apenas um tipo de dado para números, você não pode aproveitar os diversos tipos de números e nuances disponíveis em muitas linguagens de programação para; Não existe Date type, ou seja, o desenvolvedor deve recorrer ao uso de representações de strings de datas;
+Resumindo Ajax e JSON são uma combinação perfeita para transitar dados entre o cliente e o servidor sem ter que atualizar a página ou sofrer para manipular os dados retornados por requisições XMLHttpRequest, em XML, HTML ou texto puro.
+
+
+
+O que é Callback?
+É uma das formas de enviar uma informação ao servidor sem atualizar ou submeter a página atual.
+
+Esse exemplo que eu vou dar a seguir é o básico do básico, como um campo de busca com sugestões, que  ao digitar uma informação o sistema automaticamente irá buscar no servidor atualizando um painel com os possíveis resultados
