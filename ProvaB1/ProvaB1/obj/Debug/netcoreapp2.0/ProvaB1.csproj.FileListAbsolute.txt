@@ -2,10 +2,10 @@ C:\Users\Aluno\source\repos\ProvaB1\ProvaB1\bin\Debug\netcoreapp2.0\ProvaB1.deps
 C:\Users\Aluno\source\repos\ProvaB1\ProvaB1\bin\Debug\netcoreapp2.0\ProvaB1.runtimeconfig.json
 C:\Users\Aluno\source\repos\ProvaB1\ProvaB1\bin\Debug\netcoreapp2.0\ProvaB1.runtimeconfig.dev.json
 C:\Users\Aluno\source\repos\ProvaB1\ProvaB1\bin\Debug\netcoreapp2.0\ProvaB1.dll
-C:\Users\Aluno\source\repos\ProvaB1\ProvaB1\obj\Debug\netcoreapp2.0\ProvaB1.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\source\repos\ProvaB1\ProvaB1\bin\Debug\netcoreapp2.0\ProvaB1.pdb
 C:\Users\Aluno\source\repos\ProvaB1\ProvaB1\obj\Debug\netcoreapp2.0\ProvaB1.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\source\repos\ProvaB1\ProvaB1\obj\Debug\netcoreapp2.0\ProvaB1.AssemblyInfoInputs.cache
 C:\Users\Aluno\source\repos\ProvaB1\ProvaB1\obj\Debug\netcoreapp2.0\ProvaB1.AssemblyInfo.cs
-C:\Users\Aluno\source\repos\ProvaB1\ProvaB1\bin\Debug\netcoreapp2.0\ProvaB1.pdb
 C:\Users\Aluno\source\repos\ProvaB1\ProvaB1\obj\Debug\netcoreapp2.0\ProvaB1.dll
 C:\Users\Aluno\source\repos\ProvaB1\ProvaB1\obj\Debug\netcoreapp2.0\ProvaB1.pdb
+C:\Users\Aluno\source\repos\ProvaB1\ProvaB1\obj\Debug\netcoreapp2.0\ProvaB1.csprojResolveAssemblyReference.cache

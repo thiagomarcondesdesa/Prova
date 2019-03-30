@@ -18,12 +18,13 @@ namespace ProvaB1.Controllers
             Models.Funcionario f = new Models.Funcionario();
             bool flag = f.Autenticar(func["usuario"], func["senha"]);
 
-            var retornoServ = new
+            var retServ = new
             {
                 operacao = flag
             };
 
-            return Json(retornoServ);
+            return Json(retServ);
         }
     }
+
 }
